@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "gthborg-ops-controller"
 description: "CloudBees CI configuration bundle for the gthborg ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/gthborg/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
